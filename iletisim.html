@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Mehmet Özdemir</title>
+    <link rel="stylesheet" href="iletisim.css">
+</head>
+<body style="background-color: black; >
+    <nav>
+        <div class="container-fluid ">
+            <div class="row bg-dark text-light p-1">
+                <div class="col-sm-10">
+                    <h3 style="color:white ;">Mehmet Özdemir</h3>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-light btn-outline-primary" href="iletisim.css">İletişim</a>
+                    <a class="btn btn-light btn-outline-primary" href="index.html">Anasayfa</a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Bana Ulaşın</h2>
+          <p>Formu Doldurun. size ulaşalım.</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src= "https://i.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY" width="60%" >
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Adınız</label>
+              <input type="text" id="fname" name="firstname" placeholder="Adınız..">
+              <label for="lname">Soyadınız</label>
+              <input type="text" id="lname" name="lastname" placeholder="Soyadınız..">
+              <label for="country">Yaşadığınız Ülke</label>
+              <select id="country" name="country">
+                <option value="Turkey">Türkiye</option>
+                <option value="Irak">Irak</option>
+                <option value="Usa">USA</option>
+                <option value="Syria">Syria</option>
+              </select>
+              <label for="subject">Açıklamalar</label>
+              <textarea id="subject" name="subject"  style="height:150px"></textarea>
+              <input type="submit" value="Gönder">
+            </form>
+          </div>
+        </div>
+      </div>
